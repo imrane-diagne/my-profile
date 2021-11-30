@@ -1,0 +1,114 @@
+/* Colors and fonts */
+
+	
+	body  {
+	background:rgb(240, 240, 240) ;	
+	color: #736951;
+	font-family: 'Vollkorn', serif;
+	font-size: 17px;
+
+	margin: 30px;
+	}
+
+
+	h1, h2{
+		font-family: 'Montserrat', sans-serif;	
+		color: #0011ff;
+		font-weight: extra-bold;
+		font-size: 800;
+	}
+
+	h1 {
+		font-size: 32px;
+	}
+
+	h2 {
+		font-size: 20px;	
+	}
+
+	a {
+		text-decoration: none;
+		font-weight: bold;
+		color: #e8a200;
+	}
+	
+	a:hover {
+		color: #ffc847;
+	}
+
+	img {
+		width: 150px;
+		border-radius: 50% ;
+		box-shadow: 3px 5px 100px ;
+	}
+
+	
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 550px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	padding: 20px;
+	text-align: center;
+	margin: 20px auto;
+}
+
+.btn-orange {
+	background-color: #e8a200;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-orange:hover {
+	background-color: #ffc847;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 0px;
+}
+
+.list-inline i {
+	font-size: 35px;
+}
+
+
+/* Design adjustments */
+
+#card-top {
+	padding-bottom: 50px;
+}
+
+#icon-facebook {
+	font-size: 45px;
+}
+
+#introduction {
+	padding-bottom: 20px;
+}
